@@ -1,5 +1,6 @@
 import './App.css';
 import HelloWorld from './Components/HelloWorld';
+import CounterEX from './Components/CounterEX';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header className="App-header">
       <div>
         <HelloWorld name="zaman.Shahed"/>
+      </div>
+      <div>
+        <CounterEX/>
       </div>
       </header>
     </div>
